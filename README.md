@@ -8,6 +8,7 @@ Scripts for data analysis and plots in
 
 ## Repository structure
 
+```
 niger-mormyridae-analysis/
 ├── .gitignore
 ├── LICENSE
@@ -23,6 +24,7 @@ niger-mormyridae-analysis/
 └── outputs/
     └── .gitkeep
 
+```
 
 ## Dependencies
 
