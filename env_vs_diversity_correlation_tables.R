@@ -84,13 +84,13 @@ print(long_table)
 cor_wide <- as.data.frame(cor_values) %>%
   rownames_to_column("Parameter") %>%
   # Rename columns to match the actual diversity index names.
-  rename_with(~ c("Parameter", "Simpson_1-D", "Shannon_H", 
+  rename_with(~ c("Parameter", "Simpson_1-D", "Shannon_H",
                   "Evenness_e^H/S", "Margalef", "Fisher_alpha"))
 
 # Same for p‑values.
 p_wide <- as.data.frame(p_values) %>%
   rownames_to_column("Parameter") %>%
-  rename_with(~ c("Parameter", "Simpson_1-D", "Shannon_H", 
+  rename_with(~ c("Parameter", "Simpson_1-D", "Shannon_H",
                   "Evenness_e^H/S", "Margalef", "Fisher_alpha"))
 
 # Print wide tables.
@@ -109,7 +109,7 @@ combined_wide <- cor_wide
 for (i in 2:ncol(cor_wide)) {
   combined_wide[[i]] <- paste0(
     round(cor_wide[[i]], 2),        # correlation rounded to 2 decimals
-    " (", 
+    " (",
     round(p_wide[[i]], 3),          # p‑value rounded to 3 decimals
     ")"
   )
