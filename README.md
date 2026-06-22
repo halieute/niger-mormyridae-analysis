@@ -2,9 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Scripts for data analysis and plots in  
-**Souley, M.N.S. et al.**  
-*Physico‑chemical characterization of the Niger river in Niamey and its impacts on Mormyridae biodiversity*  
-*Environmental Research Communications* (forthcoming)
+**Souley,S. M. N**, Kache, S & Mahaman, H. (2026). P*hysico-chemical characterization of the Niger river in Niamey and its impacts on Mormyridae biodiversity*. *Environmental Research Communications*, 8(6). https://doi.org/10.1088/2515-7620/ae76e0
 
 ## Repository structure
 
