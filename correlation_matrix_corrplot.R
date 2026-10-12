@@ -38,7 +38,7 @@ cor_mat <- cor(data_num, use = "pairwise.complete.obs", method = "pearson")
 #   tl.srt = 45          : rotate variable labels by 45 degrees to avoid overlap
 #   addCoef.col = "black": add correlation coefficients inside the plot in black
 #   number.cex = 0.9     : size of the coefficient numbers (relative)
-#   col = colorRampPalette(...)(200): custom color palette from darkred (strong negative) 
+#   col = colorRampPalette(...)(200): custom color palette from darkred (strong negative)
 #                                     through white (zero) to darkblue (strong positive)
 corrplot(
   cor_mat,
