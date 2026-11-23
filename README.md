@@ -1,7 +1,7 @@
 [![R Version](https://img.shields.io/badge/R-%3E%3D4.0-blue)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Scripts for data analysis and plots in  
+Scripts for data analysis and plots in
 **Souley,S. M. N**, Kache, S & Mahaman, H. (2026). P*hysico-chemical characterization of the Niger river in Niamey and its impacts on Mormyridae biodiversity*. *Environmental Research Communications*, 8(6). https://doi.org/10.1088/2515-7620/ae76e0
 
 ## Repository structure
@@ -30,7 +30,7 @@ Install required R packages:
 
 ```r
 install.packages(c(
-  "tidyverse", "Hmisc", "vegan", "cluster", 
+  "tidyverse", "Hmisc", "vegan", "cluster",
   "pheatmap", "factoextra", "corrplot"
 ))
 ```

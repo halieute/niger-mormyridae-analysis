@@ -182,13 +182,13 @@ pheatmap(data_test,
 # --------------------------------------------
 # For species clusters (based on samples)
 sil_species <- silhouette(species_test, dist(data_test))
-fviz_silhouette(sil_species) + 
+fviz_silhouette(sil_species) +
   theme_minimal() +
   labs(title = "Silhouette Plot for Species Clusters (Test Data)")
 
 # For environmental clusters (based on variables – transposed)
 sil_env <- silhouette(env_groups_test, dist(t(data_test)))
-fviz_silhouette(sil_env) + 
+fviz_silhouette(sil_env) +
   theme_minimal() +
   labs(title = "Silhouette Plot for Environmental Clusters (Test Data)")
 
